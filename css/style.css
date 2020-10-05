@@ -1,8 +1,12 @@
+/* regole generali */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* regole di debug */
 
 [class*="col-"] {
   min-height: 100px;
@@ -11,8 +15,55 @@
   padding: 2px;
 }
 
-.container {
+/* .container {
+  background-color: red;
   height: 100px;
+  border: solid 1px  #000;
+} */
+
+/* regole pagina */
+
+.centratura {
+  width: 90%;
+  padding: 0 10%;
+  margin: auto;
 }
 
-[class=*]
+header, #sezione5 {
+  background-color: #2c3e50;
+}
+
+#sezione1, #sezione3 {
+  background-color: #1abc9c;
+}
+
+/* header */
+
+
+
+
+/* parte centrale */
+/* sezione 1 */
+
+
+
+
+/* sezione 2 */
+
+
+/* sezione 3 */
+
+
+/* sezione 4 */
+
+
+/* piè di pagina */
+
+/* sezione 5 */
+
+
+/* sezione6 */
+
+#sezione6 {
+  background-color: #1a252f;
+}
