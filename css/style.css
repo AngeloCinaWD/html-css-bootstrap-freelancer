@@ -40,10 +40,40 @@ header, #sezione5 {
 /* parte centrale */
 /* sezione 1 */
 
+#start, #portfolio, #about, #download, #contact, #form, .testosez3, .info, #copyright {
+  width:80%;
+  margin: auto;
+  background-color: red;
+  min-height: 100px;
+  text-align: center;
+}
 
+form {
+  text-align: left;
+}
+
+form textarea, form input {
+  width: 100%;
+}
+
+#avatar {
+  width: 50%;
+  margin: auto;
+}
+
+#avatar > img, .imgportfolio > img {
+  width: 100%;
+  height: auto;
+}
 
 
 /* sezione 2 */
+
+.imgportfolio {
+  width: 95%;
+  margin: auto;
+}
+
 
 
 /* sezione 3 */
